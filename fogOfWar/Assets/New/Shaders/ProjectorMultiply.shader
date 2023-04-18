@@ -54,7 +54,7 @@ Shader "TheFallenRealm/Fog/Projector" {
 				fixed4 texF = tex2Dproj (_FalloffTex, UNITY_PROJ_COORD(i.uvFalloff));
 				fixed4 res = lerp(fixed4(1,1,1,0), texSS, texF.a);
 
-				UNITY_APPLY_FOG_COLOR(i.fogCoord, res, fixed4(1,1,1,0));
+				UNITY_APPLY_FOG_COLOR(i.fogCoord, res, fixed4(1,1,1,1));
 				return res;
 			}
 			ENDCG
