@@ -1,0 +1,537 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 16171 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.22f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+C:/thKim/UnityProjects/fowRepos/main/fogOfWar
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+52343
+Successfully changed project path to: C:/thKim/UnityProjects/fowRepos/main/fogOfWar
+C:/thKim/UnityProjects/fowRepos/main/fogOfWar
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24728] Host "[IP] 192.168.0.137 [Port] 0 [Flags] 2 [Guid] 2415479749 [EditorId] 2415479749 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-052EG82) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [24728] Host "[IP] 192.168.0.137 [Port] 0 [Flags] 2 [Guid] 2415479749 [EditorId] 2415479749 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-052EG82) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 104.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.22f1 (b6c551784ba3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/thKim/UnityProjects/fowRepos/main/fogOfWar/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6500 XT (ID=0x743f)
+    Vendor:   ATI
+    VRAM:     4051 MB
+    Driver:   30.0.14023.3004
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006187 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 201 ms
+Refreshing native plugins compatible for Editor in 84.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.737 seconds
+Domain Reload Profiling:
+	ReloadAssembly (738ms)
+		BeginReloadAssembly (70ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (582ms)
+			LoadAssemblies (69ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (79ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (441ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (253ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (85ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (69ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004915 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\thKim\UnityProjects\fowRepos\main\fogOfWar\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\thKim\UnityProjects\fowRepos\main\fogOfWar\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 89.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.983 seconds
+Domain Reload Profiling:
+	ReloadAssembly (984ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (807ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (183ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (481ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5035 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 50 unused Assets / (1.8 MB). Loaded Objects now: 5515.
+Memory consumption went from 234.6 MB to 232.8 MB.
+Total: 3.130400 ms (FindLiveObjects: 0.338100 ms CreateObjectMapping: 0.139200 ms MarkObjects: 2.332900 ms  DeleteObjects: 0.318600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 88305.701656 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Concrete_05.png
+  artifactKey: Guid(86cf5f4daf1774e4db92db5ad0876df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Concrete_05.png using Guid(86cf5f4daf1774e4db92db5ad0876df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dba04b4a49e100408a3f9c95b1eb28f') in 0.093153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_ConcreteWall_04_TopR.png
+  artifactKey: Guid(c102cea5ad003684883e41cd56ecc6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_ConcreteWall_04_TopR.png using Guid(c102cea5ad003684883e41cd56ecc6b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09346aa8c8f2497ef8f2da1158be002d') in 0.017341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_ConcreteWall_06.png
+  artifactKey: Guid(c3658b6bbe407e040a18053f3bf26f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_ConcreteWall_06.png using Guid(c3658b6bbe407e040a18053f3bf26f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69cc934cb0ec14dbc4295738ecc7a6d1') in 0.015317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_ConcreteWall_04.png
+  artifactKey: Guid(1454d9c09d3d36c4288098c360c36e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_ConcreteWall_04.png using Guid(1454d9c09d3d36c4288098c360c36e87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf41f28639bd7ea5141f5cfe4e70354') in 0.018051 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_ConcreteWall_04N.png
+  artifactKey: Guid(08d2a86f6db335849866d07f51e9ab9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_ConcreteWall_04N.png using Guid(08d2a86f6db335849866d07f51e9ab9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '088bd659d12944db903cf98983511154') in 0.021072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.075393 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Floor_01.png
+  artifactKey: Guid(05a5281557553244cafa11f86522ae1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Floor_01.png using Guid(05a5281557553244cafa11f86522ae1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77f32a214ba15c59b9780c98faa3434b') in 0.018841 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Floor_CubeBlock_01.png
+  artifactKey: Guid(12ffbeb94feea4641a51603dac11d71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Floor_CubeBlock_01.png using Guid(12ffbeb94feea4641a51603dac11d71f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f775b878e1f8610e029f7865d53f8181') in 0.016402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Ground_02M.png
+  artifactKey: Guid(d0fb7931e4aa1db4b8d2080b30d19457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Ground_02M.png using Guid(d0fb7931e4aa1db4b8d2080b30d19457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60cf8774eccd303849fbc3c20681bae3') in 0.016332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Floor_CubeBlock_02R.png
+  artifactKey: Guid(010e1c27585aade478c4210a08e04361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Floor_CubeBlock_02R.png using Guid(010e1c27585aade478c4210a08e04361) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c29a802ab4100becf0d3f046e214e3') in 0.016780 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Floor_02R.png
+  artifactKey: Guid(c2fa5953019d6c64fb20a8be669fb587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Floor_02R.png using Guid(c2fa5953019d6c64fb20a8be669fb587) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d48b8bd74f6f5c3f82f63e8b0682aac') in 0.017032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Floor_CubeBlock_01N.png
+  artifactKey: Guid(ed95725c4fd6c9e41a85ae422280e015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Floor_CubeBlock_01N.png using Guid(ed95725c4fd6c9e41a85ae422280e015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989f12cc4185bf3407c0aeaaac441a8c') in 0.019397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Floor_CubeBlock_01R.png
+  artifactKey: Guid(3cc36e32a3d1d4a4a94dac1bb0c88dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Floor_CubeBlock_01R.png using Guid(3cc36e32a3d1d4a4a94dac1bb0c88dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e2964bc7d93bd2b67f3e7b145172a6') in 0.015924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.221480 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Ground_02N.png
+  artifactKey: Guid(fcc40e427710d6e47ae8dab1b81f9582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Ground_02N.png using Guid(fcc40e427710d6e47ae8dab1b81f9582) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5eda2e50b6ed78b4cab0e88e32166b1c') in 0.016902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Herringbone_01N.png
+  artifactKey: Guid(1a09dffed0e4f074eab8ad9814ea5ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Herringbone_01N.png using Guid(1a09dffed0e4f074eab8ad9814ea5ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a0e390b42dd1c3f3aeea9cb5435899') in 0.024219 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Herringbone_02.png
+  artifactKey: Guid(da2f4fbd15107bf428b518959f394054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Herringbone_02.png using Guid(da2f4fbd15107bf428b518959f394054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cd3ab89a8cc23cc805011f3d5c80af4') in 0.016684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Metal_01R.png
+  artifactKey: Guid(13633969da103914db91b71fa25091af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Metal_01R.png using Guid(13633969da103914db91b71fa25091af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b447174101dd0af1901a6deb962d2d7') in 0.016387 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_MetalPaint_01R.png
+  artifactKey: Guid(22cd45d708ce8994e9830c1b1ab73491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_MetalPaint_01R.png using Guid(22cd45d708ce8994e9830c1b1ab73491) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '658364ca220c471d48ea17cb27e54d90') in 0.016457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Panel_01N.png
+  artifactKey: Guid(13440f0fa1d928b4fbd1817ae4c484af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Panel_01N.png using Guid(13440f0fa1d928b4fbd1817ae4c484af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2268c3821c78156767a802eb7be9d375') in 0.018824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_MetalRust_01.png
+  artifactKey: Guid(29bcae0e41fd8ca4c92c534c275066da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_MetalRust_01.png using Guid(29bcae0e41fd8ca4c92c534c275066da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '892ac5a44c3d48bef3397cd7db12164c') in 0.015978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Panel_03_Re.png
+  artifactKey: Guid(0de98d553abf02a48855b087f3340dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Panel_03_Re.png using Guid(0de98d553abf02a48855b087f3340dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ffc31d375b2d288c2e9725e3b76dc6') in 0.018157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Plaster_01N.png
+  artifactKey: Guid(0b4f09f9c24471c499d580e34404aa9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Plaster_01N.png using Guid(0b4f09f9c24471c499d580e34404aa9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f641fced7a30702697883d007cde5a') in 0.018200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Panel_03R_Re.png
+  artifactKey: Guid(c0cc7636c24dcf94b8d90ade914ff2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Panel_03R_Re.png using Guid(c0cc7636c24dcf94b8d90ade914ff2c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61f0fe1881074abdfbec626a594198d9') in 0.017853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.005147 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Plaster_01R.png
+  artifactKey: Guid(3f9256cfb4d1f3d4fbe014e509d9856d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Plaster_01R.png using Guid(3f9256cfb4d1f3d4fbe014e509d9856d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1057d6a019b32beda04fba328332d17') in 0.018112 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Road_Kerb_01N.png
+  artifactKey: Guid(b56a8e4628bdcd34fbc859b1d51dea00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Road_Kerb_01N.png using Guid(b56a8e4628bdcd34fbc859b1d51dea00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '333dbd29cea406fcc23e5c9e8ca6c257') in 0.019443 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Tile_01N.png
+  artifactKey: Guid(2a96ba3492f94ce4c93aeb1aa2c1cecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Tile_01N.png using Guid(2a96ba3492f94ce4c93aeb1aa2c1cecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360f8ab2bf6dec6035cb518baea87ce7') in 0.018295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Tile_02.png
+  artifactKey: Guid(4f00b462e58cab247840365cc73bdeea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Tile_02.png using Guid(4f00b462e58cab247840365cc73bdeea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2148c30ef10a397cd0bad1695bf89c') in 0.017708 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Roof_Top_03N.png
+  artifactKey: Guid(7c74dc33473e6564d9aedab1254845cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Roof_Top_03N.png using Guid(7c74dc33473e6564d9aedab1254845cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219279a33e8c57c2aae647293ed99e9b') in 0.019270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Roof_Top_03R.png
+  artifactKey: Guid(03286a75124bd7047b4959f68de4f2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Roof_Top_03R.png using Guid(03286a75124bd7047b4959f68de4f2f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba083bcaecd82ad9c118991b02329d22') in 0.017026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.069267 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Tile_02_B.png
+  artifactKey: Guid(fa58ba16bb2d14c44b0447fb29630ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Tile_02_B.png using Guid(fa58ba16bb2d14c44b0447fb29630ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f55ce39dfaa372df3838212cfd5bc00') in 0.020200 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Trim_03R.png
+  artifactKey: Guid(30adb755413175f46b442a5f665cd899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Trim_03R.png using Guid(30adb755413175f46b442a5f665cd899) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40f40eeabe62fd78b5d5d0276f9e31d3') in 0.017753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Trim_01N.png
+  artifactKey: Guid(e140ed4ee3ec8a34e8137d02aee70f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Trim_01N.png using Guid(e140ed4ee3ec8a34e8137d02aee70f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537cab7bd032939c5d4c3c3f6396bc5a') in 0.015970 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Trim_02R.png
+  artifactKey: Guid(76c5fb89ba232174d9fdaee1ff2b78c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_Trim_02R.png using Guid(76c5fb89ba232174d9fdaee1ff2b78c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73d7e526e7cc790ca896c355c801a3fa') in 0.016313 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_WindowFrame_01.png
+  artifactKey: Guid(c8073f7df633080418d8dc1f10500df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_WindowFrame_01.png using Guid(c8073f7df633080418d8dc1f10500df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebaff3c3484c3ac194011e56c7b0ee77') in 0.015482 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.764051 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_WindowFrame_01M.png
+  artifactKey: Guid(1ae8764b943030f48ba4544cee919e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_WindowFrame_01M.png using Guid(1ae8764b943030f48ba4544cee919e54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04dd1ae0c4eceec2853698025b9cbef9') in 0.015424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_WoodFences_01R.png
+  artifactKey: Guid(336905c6f61feb541ad71902ca2819af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_WoodFences_01R.png using Guid(336905c6f61feb541ad71902ca2819af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b451cfb942ed5ab37ecff6aa9ca7a94d') in 0.016937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/New/02.Map/12.SandyBeach/01.Texture/Beach_STR_Sand_01N.png
+  artifactKey: Guid(e68bd86762694fb40bc9c8ffa9fd8d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/12.SandyBeach/01.Texture/Beach_STR_Sand_01N.png using Guid(e68bd86762694fb40bc9c8ffa9fd8d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93fc0dc0bc96e6a17598bbb39f2554f6') in 0.020334 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_WoodPlank_01N.png
+  artifactKey: Guid(5a80da10d67dcb745bfb6b5b72b7979b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_WoodPlank_01N.png using Guid(5a80da10d67dcb745bfb6b5b72b7979b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf90c52bca9efbe3c5db5ea8d3eff4ac') in 0.020727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/New/02.Map/12.SandyBeach/01.Texture/Beach_STR_Sand_03R.png
+  artifactKey: Guid(a6bafaaf46af2be4db113fdb145bcff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/12.SandyBeach/01.Texture/Beach_STR_Sand_03R.png using Guid(a6bafaaf46af2be4db113fdb145bcff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '919bd6e8ae409566dd25ce8ba8a7d47a') in 0.015887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Bg_Alley_OBJ_House_03.png
+  artifactKey: Guid(0671e5d7b9f04b54d9ba9f47a8ad9111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Bg_Alley_OBJ_House_03.png using Guid(0671e5d7b9f04b54d9ba9f47a8ad9111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6adbf5cb3df44695fcb26fe9534a8f2') in 0.021779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Bg_Alley_STR_House_01.png
+  artifactKey: Guid(de0964ae410e97c44a31b7f3926341b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Bg_Alley_STR_House_01.png using Guid(de0964ae410e97c44a31b7f3926341b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912b523988f8a29f0444100c400fcddf') in 0.030932 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Bg_Alley_OBJ_House_02.png
+  artifactKey: Guid(6ccf83b2614f81d4eb4709db6bdf6ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Bg_Alley_OBJ_House_02.png using Guid(6ccf83b2614f81d4eb4709db6bdf6ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de52cd85aa56fa81ca7cb72e96516e9') in 0.019982 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_WoodStrip_01N.png
+  artifactKey: Guid(63843ecd007132d40b2f912444fa9072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Alley_STR_WoodStrip_01N.png using Guid(63843ecd007132d40b2f912444fa9072) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb62ac741c60224bac3145961fbfd514') in 0.019091 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Bg_Alley_OBJ_House_03R.png
+  artifactKey: Guid(25fb328dff99a4648bdd5cdaeb1dd171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Bg_Alley_OBJ_House_03R.png using Guid(25fb328dff99a4648bdd5cdaeb1dd171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '855ebd607ec2822bfc380ddccd0c8812') in 0.019208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Bg_Alley_OBJ_House_02M.png
+  artifactKey: Guid(4e711cdc89100584abb78bb94018fcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Bg_Alley_OBJ_House_02M.png using Guid(4e711cdc89100584abb78bb94018fcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11759b726354cd2b781a8c1408b8eebe') in 0.017864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Bg_Alley_OBJ_House_02R.png
+  artifactKey: Guid(6f6a335cae019da408283243a3844074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Bg_Alley_OBJ_House_02R.png using Guid(6f6a335cae019da408283243a3844074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fbd94668395deed33cf6d49914eccf0') in 0.018491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.063998 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Bg_Alley_STR_House_06_13.png
+  artifactKey: Guid(5821d7281aed8ab4b9adfe5fdadce0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Bg_Alley_STR_House_06_13.png using Guid(5821d7281aed8ab4b9adfe5fdadce0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e270e91c24cfd24bb816fbdb87d323') in 0.021415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/New/02.Map/07.Harbor/01.Texture/Bg_Harbor_OBJ_Crate_Re_M.png
+  artifactKey: Guid(c79c9814df3dcc34c928865b5eefb432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/07.Harbor/01.Texture/Bg_Harbor_OBJ_Crate_Re_M.png using Guid(c79c9814df3dcc34c928865b5eefb432) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccbe12698a843cdb72eaa39e3a823cb6') in 0.020246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Bg_Alley_STR_RetainingWall_01R.png
+  artifactKey: Guid(7961463e8c50bf44daefbf761d9c32f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Bg_Alley_STR_RetainingWall_01R.png using Guid(7961463e8c50bf44daefbf761d9c32f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc41a3d97f905804102ed3701917fdb') in 0.022115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/New/02.Map/07.Harbor/01.Texture/Bg_Harbor_OBJ_Crate_Re.png
+  artifactKey: Guid(12d19a819cc7cc640b9fae32667172a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/07.Harbor/01.Texture/Bg_Harbor_OBJ_Crate_Re.png using Guid(12d19a819cc7cc640b9fae32667172a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8600187e37d11ca9a76ff43e5c24a5b0') in 0.021034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Bg_Alley_STR_House_12.png
+  artifactKey: Guid(6ae3627b2eed9074e8e43ab7e9289558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Bg_Alley_STR_House_12.png using Guid(6ae3627b2eed9074e8e43ab7e9289558) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc89f3fe887304eba18d4cd66dc3615') in 0.019562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/New/02.Map/00.Alley/01.Texture/Bg_Alley_STR_House_14_15.png
+  artifactKey: Guid(06ab4c10e1d422943bfcf581dc1d89e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/00.Alley/01.Texture/Bg_Alley_STR_House_14_15.png using Guid(06ab4c10e1d422943bfcf581dc1d89e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '814182ee63372dad712b70c7cd4fff56') in 0.019662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.398604 seconds.
+  path: Assets/New/02.Map/08.Hospital/01.Texture/BG_Hospital_STR_House_01_Re_obj_M.png
+  artifactKey: Guid(d4975c34aeaff384791d4a0237fb88bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/08.Hospital/01.Texture/BG_Hospital_STR_House_01_Re_obj_M.png using Guid(d4975c34aeaff384791d4a0237fb88bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c88f84926a14d6d3419662278c0fc485') in 0.019804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/New/02.Map/09.Hotel/01.Texture/Bg_Hotel_STR_House_01_02.png
+  artifactKey: Guid(e164e3f715af92e46af1c0ff5fed7a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/09.Hotel/01.Texture/Bg_Hotel_STR_House_01_02.png using Guid(e164e3f715af92e46af1c0ff5fed7a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43f659b848c49ffd8750830b2c1049a') in 0.021827 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/New/02.Map/13.School/01.Texture/Bg_School_OBJ_House_01_Re.png
+  artifactKey: Guid(614b9f87712e20b41942842d910d938e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/13.School/01.Texture/Bg_School_OBJ_House_01_Re.png using Guid(614b9f87712e20b41942842d910d938e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b532ed12d041ad711452870a40a2bac3') in 0.017618 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.980229 seconds.
+  path: Assets/New/02.Map/02.Cemetery/01.Texture/Cemetery_OBJ_Tomb_05_01.png
+  artifactKey: Guid(b1c478ce62920f34b9b153d743384683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/02.Cemetery/01.Texture/Cemetery_OBJ_Tomb_05_01.png using Guid(b1c478ce62920f34b9b153d743384683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3fa8b0e647e525afaad0873965a096f') in 0.017763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.244016 seconds.
+  path: Assets/New/02.Map/02.Cemetery/01.Texture/Cemetery_OBJ_Tomb_05_01N #785221.png
+  artifactKey: Guid(e5fa40b58a01f1c4ebcc93a55733973c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/02.Cemetery/01.Texture/Cemetery_OBJ_Tomb_05_01N #785221.png using Guid(e5fa40b58a01f1c4ebcc93a55733973c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d1648aacf02ea3504e4042fc4813ee') in 0.016559 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/New/02.Map/02.Cemetery/01.Texture/Cemetery_OBJ_Tomb_05_02.png
+  artifactKey: Guid(ed5238f3beb886242a442aa2fb809639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/02.Cemetery/01.Texture/Cemetery_OBJ_Tomb_05_02.png using Guid(ed5238f3beb886242a442aa2fb809639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d03acb5e07e2bab0a0f41bf87dde22a') in 0.016772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/New/02.Map/02.Cemetery/01.Texture/Cemetery_OBJ_Tomb_05_02N.png
+  artifactKey: Guid(d99fa7637f61daa41aa83473dd5d920b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/02.Cemetery/01.Texture/Cemetery_OBJ_Tomb_05_02N.png using Guid(d99fa7637f61daa41aa83473dd5d920b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '404204cee99831a8c12b2504d9fa2c11') in 0.015646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022047 seconds.
+  path: Assets/New/02.Map/02.Cemetery/01.Texture/Cemetery_OBJ_Tomb_Set_Re_01N.png
+  artifactKey: Guid(805e4acb44a83d84898de21075219b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/02.Cemetery/01.Texture/Cemetery_OBJ_Tomb_Set_Re_01N.png using Guid(805e4acb44a83d84898de21075219b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0bb236ea2aa167f1ffa247aa082c7e5') in 0.022508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/New/02.Map/02.Cemetery/01.Texture/Cemetery_OBJ_Tombstone_04N.png
+  artifactKey: Guid(1115cbfe1ea21694dbfe93134bdd76c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/02.Cemetery/01.Texture/Cemetery_OBJ_Tombstone_04N.png using Guid(1115cbfe1ea21694dbfe93134bdd76c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '584933a4cf7a0a067111a6e3d1099d70') in 0.019763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/New/02.Map/02.Cemetery/01.Texture/Cemetery_STR_Roof_01R.png
+  artifactKey: Guid(17bb8b497b720a44fbbf6a5c69fc6626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/02.Map/02.Cemetery/01.Texture/Cemetery_STR_Roof_01R.png using Guid(17bb8b497b720a44fbbf6a5c69fc6626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b28d5febb5b7338975e7027eef46f0fe') in 0.019926 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
